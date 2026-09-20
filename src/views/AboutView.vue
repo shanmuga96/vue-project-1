@@ -31,6 +31,57 @@
     justify-content: center;
   }
 }
+@media (max-width: 1024px) {
+  .about {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media (max-width: 480px) {
+  .about {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .about p {
+    font-size: 0.9rem;
+    line-height: 1.4;
+    font-weight: 400;
+    font-family: Arial, sans-serif;
+    font-style: normal;
+    font-variant: normal;
+    font-stretch: normal;
+    color: green;
+  }
+  .about h1 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-family: Arial, sans-serif;
+    font-style: italic;
+    font-variant: small-caps;
+    font-stretch: condensed;    
+  }
+}
+@media (max-width: 320px) {
+  .about {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media print {
+  .about {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    orientation: portrait;
+  }
+}
 div.about {
   padding: 1rem;
   text-align: center;
