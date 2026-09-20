@@ -25,7 +25,7 @@
 import { ref } from 'vue'
 
 const item = ref('')
-const items = ref(['one123'])
+const items = ref(['Melk', 'Bananen', 'Boter', 'Brood', 'Kaas'])
 const editingIndex = ref(null)
 
 function addOrUpdateItem() {
